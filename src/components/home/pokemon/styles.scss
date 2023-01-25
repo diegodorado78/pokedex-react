@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+.electric {
+  background-color: yellow;
+}
+
+.fighting {
+  background-color: #C12239;
+}
+
+.normal {
+  background-color: #AAA67F;
+}
+
+.flying {
+  background-color: #A891EC;
+}
+
+.ground {
+  background-color: #DEC16B;
+}
+
+.poison {
+  background-color: #A43E9E;
+}
+
+.rock {
+  background-color: #B69E31;
+}
+
+.bug {
+  background-color: #A7B723;
+}
+
+.ghost {
+  background-color: #70559B;
+}
+
+.steel {
+  background-color: #B7B9D0;
+}
+
+.fire {
+  background-color: #F57D31;
+}
+
+.water {
+  background-color: #6493EB;
+}
+
+.grass {
+  background-color: #74CB48
+}
+
+.psychic {
+  background-color: #FB5584;
+}
+
+.ice {
+  background-color: #9AD6DF;
+}
+
+.dragon {
+  background-color: #7037FF;
+}
+
+.dark {
+  background-color: #75574C;
+}
+
+.fairy {
+  background-color: #E69EAC;
+}
+
+.unknown {
+  background-color: #526677;
+}
+
+.shadow {
+  background-color: #4F507B;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1px auto;
+  // padding: 5px;
+  color: #20262e;
+  img {
+    border-radius: 50%;
+    background-color: white;
+  }
+
+
+}
+ h3 {
+   font-family: "Press Start 2P", "poppins";
+ }
+// .card {
+//   display: flex;
+//   width: 50%;
+//   height: 70vh;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+//   margin: 0 auto;
+
+// }
+.info__container {
+  background-color: white;
+  text-align: center;
+  border-radius: 5px;
+  width: 90%;
+  margin: 2rem auto;
+  font-family: "poppins";
+}
