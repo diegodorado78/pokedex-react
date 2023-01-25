@@ -4,71 +4,71 @@
 }
 
 .fighting {
-  background-color: #C12239;
+  background-color: #c12239;
 }
 
 .normal {
-  background-color: #AAA67F;
+  background-color: #aaa67f;
 }
 
 .flying {
-  background-color: #A891EC;
+  background-color: #a891ec;
 }
 
 .ground {
-  background-color: #DEC16B;
+  background-color: #dec16b;
 }
 
 .poison {
-  background-color: #A43E9E;
+  background-color: #a43e9e;
 }
 
 .rock {
-  background-color: #B69E31;
+  background-color: #b69e31;
 }
 
 .bug {
-  background-color: #A7B723;
+  background-color: #a7b723;
 }
 
 .ghost {
-  background-color: #70559B;
+  background-color: #70559b;
 }
 
 .steel {
-  background-color: #B7B9D0;
+  background-color: #b7b9d0;
 }
 
 .fire {
-  background-color: #F57D31;
+  background-color: #f57d31;
 }
 
 .water {
-  background-color: #6493EB;
+  background-color: #6493eb;
 }
 
 .grass {
-  background-color: #74CB48
+  background-color: #74cb48;
 }
 
 .psychic {
-  background-color: #FB5584;
+  background-color: #fb5584;
 }
 
 .ice {
-  background-color: #9AD6DF;
+  background-color: #9ad6df;
 }
 
 .dragon {
-  background-color: #7037FF;
+  background-color: #7037ff;
 }
 
 .dark {
-  background-color: #75574C;
+  background-color: #75574c;
 }
 
 .fairy {
-  background-color: #E69EAC;
+  background-color: #e69eac;
 }
 
 .unknown {
@@ -76,43 +76,9 @@
 }
 
 .shadow {
-  background-color: #4F507B;
+  background-color: #4f507b;
 }
 
-.container {
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 1px auto;
-  // padding: 5px;
-  color: #20262e;
-  img {
-    border-radius: 50%;
-    background-color: white;
-  }
-
-
-}
- h3 {
-   font-family: "Press Start 2P", "poppins";
- }
-// .card {
-//   display: flex;
-//   width: 50%;
-//   height: 70vh;
-//   flex-direction: column;
-//   justify-content: center;
-//   align-items: center;
-//   margin: 0 auto;
-
-// }
-.info__container {
-  background-color: white;
-  text-align: center;
-  border-radius: 5px;
-  width: 90%;
-  margin: 2rem auto;
-  font-family: "poppins";
+h3 {
+  font-family: "Press Start 2P", "poppins";
 }

@@ -1,12 +1,12 @@
-import Home from './components/home/Home'
-import './index.scss'
+import Home from "./components/home/Home";
+import "./index.scss";
 
 function App() {
   return (
     <>
-      <Home/>
+      <Home />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

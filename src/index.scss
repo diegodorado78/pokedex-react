@@ -8,10 +8,22 @@
   padding: 0;
   outline: none;
   box-sizing: border-box;
-  font-family:"Poppins";
+  font-family: "Poppins";
 }
-#root{
-  height: 100vh;
-    box-sizing: border-box;
-  // background-color: #20262E;
+body {
+  background-color: rgb(220 38 38);
+}
+
+#root {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+@media (min-width: 600px) {
+  body {
+    background-color: rgb(31 41 55);
+  }
+  #root {
+    margin: 5rem 0;
+  }
 }

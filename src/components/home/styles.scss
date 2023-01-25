@@ -1,0 +1,17 @@
+.poke-container {
+  background-image: url("../../assets/pokedex-vertical.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  border-radius: 5px;
+  height: 100vh;
+}
+
+@media (min-width: 600px) {
+  .poke-container {
+    background-image: url("../../assets/pokedex-horizontal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+  }
+}
