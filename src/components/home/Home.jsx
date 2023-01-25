@@ -6,7 +6,7 @@ import Form from "../form.jsx/Form";
 import "./styles.scss";
 export default function Home() {
   const [pokemon, setPokemon] = useState(null);
-  const [query, setQuery] = useState("ditto");
+  const [query, setQuery] = useState("1");
   useEffect(() => {
     pokemonServices.getPokemon(query).then(onSuccess).catch(console.error);
   }, [query]);

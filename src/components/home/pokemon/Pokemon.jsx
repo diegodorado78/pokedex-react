@@ -9,7 +9,7 @@ export default function Pokemon({ pokemonObj }) {
         className={`flex flex-col ${type} m-1 content-center rounded-lg sm:mx-auto border-2 border-black shadow-xl `}
       >
         <div className="flex justify-end w-full">
-          <h3 className="bg-white lg:p-1 rounded-lg shadow-xl w-auto text-center mx-1 my-1">
+          <h3 className="bg-white p-1 rounded-lg shadow-xl w-auto text-center mx-1 my-1">
             #{pokemonObj.id}
           </h3>
         </div>
