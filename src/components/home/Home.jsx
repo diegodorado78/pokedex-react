@@ -11,7 +11,8 @@ export default function Home() {
   const [firstLoad] = useState(false);
 
   useEffect(() => {
-    pokemonServices.getPokemon(query).then(onSuccess).catch(console.error);
+    query &&
+      pokemonServices.getPokemon(query).then(onSuccess).catch(console.error);
   }, [query]);
 
   const onSuccess = (res) => {
