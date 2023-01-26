@@ -10,7 +10,6 @@ const port = process.env.PORT || 3000;
 const whiteList = [
   "http://localhost:5173", //default port assigned by yarn
   "http://127.0.0.1:5173",
-  "https://react-pokedex-trascender.netlify.app/",
 ];
 
 const options = {
