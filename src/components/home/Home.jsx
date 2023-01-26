@@ -4,15 +4,29 @@ import pokemonServices from "../../services/pokemonServices";
 import Pokemon from "./pokemon/Pokemon";
 import Form from "../form.jsx/Form";
 import "./styles.scss";
+import externalDbServices from "../../services/externalDbServices";
 export default function Home() {
   const [pokemon, setPokemon] = useState(null);
-  const [query, setQuery] = useState("1");
+  const [query, setQuery] = useState(null);
+  const [firstLoad] = useState(false);
+
   useEffect(() => {
     pokemonServices.getPokemon(query).then(onSuccess).catch(console.error);
   }, [query]);
 
   const onSuccess = (res) => {
     console.log(res);
+    const payload = {
+      name: res.name,
+      type: res.types[0].name,
+      attack: res.moves[0].move.name,
+      weight: res.weight,
+      listNumber: res.id,
+    };
+    externalDbServices
+      .addPokemon(payload)
+      .then((res) => console.log(res))
+      .catch((err) => console.error(err));
     setPokemon(res);
   };
 
@@ -32,11 +46,19 @@ export default function Home() {
               <Pokemon pokemonObj={pokemon} />
             ) : (
               <div className="bg-white flex rounded-lg p-10 my-auto">
-                <h3 className=" ">
-                  Oops :(
-                  <br />
-                  Pokemon no encontrado,intenta con otro Porfavor...
-                </h3>
+                {query && (
+                  <h3>
+                    Oops :(
+                    <br />
+                    Pokemon no encontrado,intenta con otro Porfavor...
+                  </h3>
+                )}
+                {!firstLoad && !query && (
+                  <h3>
+                    Bienvenido Maestro Pokemon, Ingresa el nombre o id del
+                    pokemon que quieres ver.
+                  </h3>
+                )}
               </div>
             )}
           </div>
