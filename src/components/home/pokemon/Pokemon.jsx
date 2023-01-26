@@ -6,16 +6,16 @@ export default function Pokemon({ pokemonObj }) {
   return (
     <>
       <div
-        className={`flex flex-col ${type} m-1 content-center rounded-lg sm:mx-auto border-2 border-black shadow-xl `}
+     className={` flex flex-col ${type} m-1 content-center rounded-lg sm:mx-auto border-2 border-black shadow-xl `}
       >
-        <div className="flex justify-end w-full">
+     <div className="flex justify-end w-full ">
           <h3 className="bg-white p-1 rounded-lg shadow-xl w-auto text-center mx-1 my-1">
             #{pokemonObj.id}
           </h3>
         </div>
         <img
           width="200px"
-          className="mx-auto bg-white rounded-full"
+      className=" mx-auto pokemon__header rounded-full"
           src={pokemonObj?.sprites.other.home.front_default}
           alt="img"
         />
