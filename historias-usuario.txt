@@ -1,0 +1,43 @@
+A continuacion se presentan las historias de usuario y suss respectivos task
+Historias de usuario:
+
+o "Como usuario de la app deseo poder consultar un personaje de la serie, ya sea
+por nombre o id".
+tasks:
+-Construir el mockup del contenedor para el buscador Y sus componentes internos
+-Construir la interfaz  del componente en el frontend
+-Construir el formulario para capturar el/los queries
+-Construir la logica para comunicar la data del formulario con la peticion al Api
+-Construir un componente que muestre un mensaje en caso de que el query del usuario no coincida con los registros de personajes disponibles en la API.
+-Realizar pruebas para verificar que los datos capturados y pasados a la consulta funcionan correctamente.
+-Realizar pruebas donde se verifique el correcto funcionamiento de la peticion al Api.
+-Hacer el pull request para recibir feedback y continuar
+-Hacer ajustes necesarios y repetir el proceso
+
+o "Como usuario de la app deseo poder ingresar desde mi teléfono Movil".
+tasks:
+-Construir el mockup de la vista en modo mobile para el aplicativo
+-Definir la estructura para determinar si el aplicativo sera mobile first o desktop first
+-Construir el maquetado HTML dividido por componentes, de acuerdo a los
+-De acuerdo a la eleccion realizada, agregar los estilos necesarios para que el aplicativo funcione de forma responsiva
+-Realizar pruebas para verificar que visualmente se vea agradable desde el telefono movil
+-Realizar pruebas para verificar que visualmente se adapta a diferentes tamaños de pantalla.
+-Realizar el pull request para recibir feedback y continuar
+-Realizar ajustes necesarios y repetir el proceso
+
+o "Como usuario de la app quiero que la interfaz sea intuitiva".
+tasks:
+- Construir un prototipo de navegacion de usuario para simular el uso de la app
+- Definir los elementos y componentes para que la vista y la navegacion sea lo mas simple e intuitiva posible
+- Definir la paleta de colores y fuentes a usar que esten acordes al contenido que mostrara el aplicativo
+- Construir los elementos y/o vistas en el frontend
+- Realizar pruebas continuas de la navegacion e interaccion con el aplicativo para verificar su armonia y facil navvegacion
+- Realizar el pull request para recibir feedback y continuar
+- Realizar ajustes necesarios y repetir el proceso
+
+
+“como usuario de la app quiero poder seleccionar el botón enviar”
+o Task: construir el mockup del botón
+o Task: definir enpoint del botón
+o Task: desarrollar el botón
+o Task: lanzar el pull request
